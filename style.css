@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.card {
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    border: 1px solid blueviolet;
+}
+
+.card > button {
+   width: 50%; 
+   padding: 10px 20px;
+
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.library {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    row-gap: 20px;
+}
